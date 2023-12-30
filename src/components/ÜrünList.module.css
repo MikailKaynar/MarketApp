@@ -1,0 +1,44 @@
+.ürün {
+  background-color: #ffc300;
+  list-style: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.ürün span {
+  padding: 1rem;
+  color: #001d3d;
+  font-size: 25px;
+}
+.buton {
+  background-color: #003566;
+  box-shadow: 0 7px #cca000;
+  color: #edf6f9;
+  padding: 1rem 1rem;
+  font-size: 0.7rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+.buton:hover{
+  background-color: #001d3d;
+}
+.buton:active {
+  box-shadow: 0 3px #76520e;
+  transform: translateY(4px);
+}
+button:disabled{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  transform:none;
+  color: #666666;
+  box-shadow: none;
+}
+button:disabled:active{
+  transform:none;
+}
+button:disabled:hover{
+  background-color: #cccccc;
+  box-shadow: none;
+}
