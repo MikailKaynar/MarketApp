@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       <div className={classes.header}>
-        <li className={classes.logo}>SalesApp</li>
+        <li className={classes.logo}>Armarkap</li>
         <div className={classes.headerright}>
           <li>
             <label>BAKİYE MİKTARINIZI GİRİNİZ : </label>
